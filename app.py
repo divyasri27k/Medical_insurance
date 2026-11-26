@@ -372,7 +372,7 @@ elif page == "💰 Prediction":
 
     if not model_loaded:
         st.error("Model could not be loaded.")
-        st.code(model_error or "Check insurance_model.pkl.")
+        st.code(model_error or "Check Medical_insurance_model.pkl.")
     else:
 
         st.markdown("### 👤 Personal Information")
