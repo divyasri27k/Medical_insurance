@@ -188,7 +188,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    return joblib.load("insurance_model.pkl")
+    return joblib.load("Medical_insurance.pkl")
 
 
 try:
